@@ -1,10 +1,3 @@
-begin
-  require "codeclimate-test-reporter"
-  CodeClimate::TestReporter.start
-rescue LoadError
-  # ignore on ruby 1.8.x
-end
-
 require "active_record"
 require "active_support/core_ext/string"
 require "active_support/core_ext/hash"
