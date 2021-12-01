@@ -9,7 +9,7 @@ module ToFactory
       end
 
       def to_s
-        setter = "#{@attribute}setter#{inspect_value(@value)}"
+        setter = "#{@attribute} {#{inspect_value(@value)} }"
         "    #{setter}"
       end
 
